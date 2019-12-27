@@ -14,7 +14,7 @@ function radio(props) {
           onChange={props.onChange}
         />
       </div>
-    );
+    )
   });
   return (
     <div>
@@ -22,6 +22,6 @@ function radio(props) {
       {options}
     </div>
   );
-}
+};
 
 export default radio;
