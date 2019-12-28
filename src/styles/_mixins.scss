@@ -1,0 +1,17 @@
+@mixin form {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+@mixin divs {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $medium-light-color;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(155, 142, 123, 0.646);
+    font-family: $font-fam;
+}

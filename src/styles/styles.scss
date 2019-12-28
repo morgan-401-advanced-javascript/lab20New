@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'mixins';
+
+
+body {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1444487233259-dae9d907a740?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-color: $medium-dark-color;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+
+    .App {
+        background-color: $medium-dark-color;
+        @include divs();
+        h1{
+            font-size: 40px;
+            background-color: $pink-color;
+            color: $dark-color;
+            @include divs();
+        }
+        div{
+            @include form();
+        }
+        font-family: $font-fam;
+    }
+    .confirm{
+        text-align: center;
+        margin: auto;
+        width: 75%;
+        div{
+            display: inline-block;
+        }
+        h4{
+            font-size: 35px;
+            width: 100%;
+        }
+        button{
+            height: 50px;
+            width: 50%;
+            background-color: $pink-color;
+            font-size: 20px;
+            font-weight: bold;
+            border-color: rgba(0, 0, 0, 0.454);
+            border-radius: 25px;
+            border-style: solid;
+            border-width: 2px;
+        }
+          }
+  }
+  
