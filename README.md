@@ -3,8 +3,8 @@
 ### Author: Morgan T Shaw
 
 ### Links and Resources
-* [SandBox](https://codesandbox.io/s/github/mts513/lab20)
-* [Netlify](https://csb-80k4b.netlify.com/)
+* [SandBox](https://codesandbox.io/s/solitary-frog-olbf0)
+* [Netlify](https://csb-olbf0.netlify.com/)
 
 ### Notes
 Still in progress. 
