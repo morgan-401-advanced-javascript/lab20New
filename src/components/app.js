@@ -5,7 +5,10 @@ import InputBox from "./inputbox";
 import Radio from "./radio";
 
 
-
+/**
+ * Our App class that is "smart" and is the primary application code
+ * @class
+ */
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -17,6 +20,11 @@ class App extends React.Component {
       PlusOne: ""
     };
   }
+  /**
+   * method that will update the state from user input data
+   * @method onChange 
+   * @param {object} newData 
+   */
   onChange(newData) {
     let dataKey = newData.target.name;
     let dataValue = newData.target.value;

@@ -1,5 +1,9 @@
 import React from "react";
-
+/**
+ * function that create a radio input for users
+ * @function radio
+ * @param {object} props uses props.list, props.name, props.onChange, props.label
+ */
 function radio(props) {
   let options = [];
   props.list.forEach((val, ind) => {

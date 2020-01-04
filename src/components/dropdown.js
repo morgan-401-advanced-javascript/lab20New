@@ -1,5 +1,10 @@
 import React from "react";
 
+/**
+ * This function creates a dropdown list for users based on the props.list given by parent
+ * @function dropdown
+ * @param {object} props uses props.item props.onChange, props.name, & props.label
+ */
 function dropdown(props) {
   let options = [];
   props.list.forEach((val, ind) => {
