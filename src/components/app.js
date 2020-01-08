@@ -4,6 +4,11 @@ import Header from "./header";
 import InputBox from "./inputbox";
 import Radio from "./radio";
 
+
+/**
+ * Our App class that is "smart" and is the primary application code
+ * @class
+ */
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -15,6 +20,11 @@ class App extends React.Component {
       PlusOne: ""
     };
   }
+  /**
+   * method that will update the state from user input data
+   * @method onChange 
+   * @param {object} newData 
+   */
   onChange(newData) {
     let dataKey = newData.target.name;
     let dataValue = newData.target.value;
@@ -53,7 +63,8 @@ class App extends React.Component {
           onChange={this.onChange.bind(this)}
         />
 
-        <div>
+        <div className="confirm">
+          <div>
           <h4>Does this look correct?</h4>
           <p>
             Name: {this.state.firstName} {this.state.lastName}
@@ -65,6 +76,10 @@ class App extends React.Component {
             Plus One: {this.state.PlusOne}
             <br />
           </p>
+          <button>
+            I'm Ready!
+          </button>
+          </div>
         </div>
       </div>
     );
